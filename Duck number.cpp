@@ -18,7 +18,7 @@ int main()
 		}
 		num/=10;
 	}
-	if(flag==1)
+	if(flag==1)//if the value of the flag variable changes then it is duck number
 	{
 		printf("The number is a duck number");
 	}
