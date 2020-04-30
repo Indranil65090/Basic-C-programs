@@ -1,3 +1,6 @@
+/**
+creating a hollow diamond  
+*/
 #include<stdio.h>
 int main()
 {
