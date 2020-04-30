@@ -7,7 +7,7 @@ int main()
 {
 	int c,n,sum=0;
 	printf("The number from user is:");
-	scanf("%d",&n);
+	scanf("%d",&n);//taking the input from user
 	
 	int num=n;
 	
@@ -15,10 +15,10 @@ int main()
 	{
 		c=num%10;
 		num/=10;
-		sum+=c;
+		sum+=c;//taking the sum of all the digits of the number given by user
 	}
 	
-	if(n%sum==0)
+	if(n%sum==0)//checking the condition that number is completely divisible by the sum of the digits.
 		{
 			printf("%d is a Harshad number",n);	
 		}
