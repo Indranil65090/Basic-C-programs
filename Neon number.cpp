@@ -1,3 +1,8 @@
+/**
+neon number is the number whose square of the number and thereby adding the digits of the squared 
+number gives the same number.
+Example-9*9=81 and 8+1=9
+*/
 #include<stdio.h>
 int main()
 {
