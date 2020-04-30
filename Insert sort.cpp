@@ -1,7 +1,11 @@
+/**
+Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.
+*/
 #include<stdio.h>
 int main()
 {
 	int a[50],n,temp,i,j,min=-1;
+	
 	printf("Enter the number of elements of the array:");
 	scanf("%d",&n);
 	
@@ -13,6 +17,7 @@ int main()
 	}
 	//first initializing the first element of the array as -1
 	a[0]=min;
+	
 	for(i=1;i<=n;i++)
 	{
 		temp=a[i];
