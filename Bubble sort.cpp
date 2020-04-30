@@ -1,5 +1,5 @@
 /**
-Bubble sort
+Bubble sort is the technique of sorting by checking two consecutive numbers 
 */
 
 #include<stdio.h>
