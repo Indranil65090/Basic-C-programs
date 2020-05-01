@@ -5,7 +5,7 @@ int main()
 	int t,n;
 	float y;
 	
-	printf("Enter the value of n");
+	printf("Enter the value of n:");
 	scanf("%d",&n);
 	
 	for(t=0;t<n;t++)
