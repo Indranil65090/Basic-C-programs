@@ -1,3 +1,7 @@
+/**
+The selection sort sorts an array by repeatedly finding the minimum element 
+(considering ascending order) from unsorted part(in the form of number of passes) and putting the samllest item at the beginning.
+*/
 #include<stdio.h>
 int main()
 {
