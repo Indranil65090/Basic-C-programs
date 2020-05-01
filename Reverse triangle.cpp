@@ -2,8 +2,10 @@
 int main()
 {
 	int rows,space,i,j;
+	
 	printf("Enter the rows:");
 	scanf("%d",&rows);
+	
 	for(i=rows;i>=1;i--)
 	{
 		for(space=i;space<rows;space++)
@@ -16,6 +18,7 @@ int main()
 		}
 		printf("\n");
 	}
+	
 	return 0;
 }
 
