@@ -24,6 +24,8 @@ int main()
 			str[i]=newch;
 		}
 	}
-	printf("The new string is replaced '%c' with '%c'=%s",ch,newch,str);
+	
+	printf("The new string is replaced '%c' with '%c'=\n%s",ch,newch,str);
+	
 	return 0;
 }
