@@ -5,10 +5,11 @@ just check out this pattern
 int main()
 {
 	int i,j,k,n,r;
-	printf("Enter the number of rows:\n");
+	
+	printf("Enter the number of rows:");
 	scanf("%d",&n);
 	
-	for(r=1;r<=n;r++)
+	for(r=1;r<=n;r++)//rows for the first half of the pattern
 	{
 		for(i=1;i<=r;i++)
 		{
@@ -24,7 +25,8 @@ int main()
 		}
 			printf("\n");		    
 	}
-	for(r=n;r>=1;r--)
+	
+	for(r=n;r>=1;r--)//rows for the second half of the pattern
 	{
 		for(i=r;i>=1;i--)
 		{
@@ -40,6 +42,7 @@ int main()
 		}
 			printf("\n");
 	}
+	
 		return 0;
 }
 		
