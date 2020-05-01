@@ -2,6 +2,7 @@
 int main()
 {
 	int i,j,n,sum=0,c;
+	
 	printf("Enter the number of terms:");
 	scanf("%d",&n);
 	
@@ -9,7 +10,7 @@ int main()
 		{
 			sum=sum+(i*j);
 		}
-		c=1+sum;
+		c=sum+1;
 		
 	printf("The sum of the series is %d",c);
 	return 0;
