@@ -13,11 +13,11 @@ int main()
 	}
 	if(a==result)//checking if the original number is same as the result 
 	{
-		printf("The number %d is pallindrome",a);
+		printf("The number %d is palindrome",a);
 	}
 	else
 	{
-		printf("The number %d is not pallindrome",a); 
+		printf("The number %d is not palindrome",a); 
 	}
 	return 0;
 }
