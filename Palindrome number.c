@@ -4,7 +4,7 @@ int main()
 	int n,c,result=0,a; 
 	printf("Enter the number:");
 	scanf("%d",&n);
-  a=n;//putting the number in another variable
+        a=n;//putting the number in another variable
 	while(n!=0)
 	{
 		c=n%10;
