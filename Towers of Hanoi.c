@@ -1,15 +1,23 @@
 #include<stdio.h>
-void TOH(int n,char x,char y,char z) 
+void TOH(int,char,char,char);
+int main()
 {
-   if(n>0) 
-   {
-      TOH(n-1,x,z,y);
-      printf("\n%c to %c",x,y);
-      TOH(n-1,z,y,x);
-   }
+	int n;
+	printf("Enter the number of disks:");
+	scanf("%d",&n);
+	TOH(n,'A','B','C');
+	return 0;
 }
-int main() 
+void TOH(int n,char source,char destination,char spare)
 {
-   int n=3;
-   TOH(n,'A','B','C');
+	if(n==1)
+	{
+		printf("\nMove disk from %c to %c",source,destination);
+	}
+	else
+	{
+		TOH(n-1,source,spare,destination);
+		TOH(1,source,destination,spare);
+		TOH(n-1,spare,destination,source);
+	}
 }
