@@ -7,10 +7,10 @@ int main()
 {
     int i, j, n;
     int count;
-	printf("Enter the number of rows: ");
+    printf("Enter the number of rows: ");
     scanf("%d", &n);
-	count = 2 * n - 1;
-	for(i=1; i<=count; i++)
+    count = 2 * n - 1;
+    for(i=1; i<=count; i++)
     {
         for(j=1; j<=count; j++)
         {
@@ -22,8 +22,8 @@ int main()
             {
                 printf(" ");
             }
-        }
-		printf("\n");
+      }
+     printf("\n");
     }
 	return 0;
 }
