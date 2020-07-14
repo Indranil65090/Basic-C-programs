@@ -7,9 +7,7 @@ int main()
 	int n1,n,r,i;
 	printf("Enter the number of rows:");
 	scanf("%d",&n);
-	
 	n1=n;
-	
 	for(r=1;r<=n;r++)
 	{
 		if(r>1)
@@ -26,6 +24,5 @@ int main()
 		n1--;
 		printf("\n");
 	}
-	
 	return 0;
 }
