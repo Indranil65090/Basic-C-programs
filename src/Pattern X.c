@@ -1,7 +1,7 @@
 /**
  * C program to print X star pattern series
  */
- 
+
 #include <stdio.h>
 int main()
 {
